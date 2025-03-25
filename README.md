@@ -8,7 +8,6 @@ Using Pandas and Jupyter Notebook, create a report that includes the following d
 Perform the necessary calculations and then create a high-level snapshot of the district's key metrics in a DataFrame.
 
 Include the following:
-
 - Total number of unique schools
 - Total students
 - Total budget
