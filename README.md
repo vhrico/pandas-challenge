@@ -1,6 +1,39 @@
 # PyCitySchools Pandas Challenge MOD 4 (Week 4)
 Analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. The task is to aggregate the data to showcase obvious trends in school performance.
 
+# PyCity Schools Analysis
+
+Analysis Summary
+
+The district has a total of 15 schools, 7 District and 8 Charter schools with District schools performing better in reading than math scores. The District schools lower math percentage scores lowers the overall passing (math and reading) percentage for the district. 
+Theres no distinct correlation between school spending per student and student scores either positive or negative. But there is a drop in average math scores for the two higher per student spending range (630-645 and 645-680). Huang High school spends the most per student but has the lowset average math scores (76.8). Reviewing the "Highest and Lowest performing by overall % score" data set and comparing total school budget, theres no correlation in budget and scores performance but there is a corre;lation between school size and performance scores.
+
+Obervable trend/Correlation 1
+
+Charter schools perform better then distric schools across all score metrics, specifically in reading (94% charter vs 67% district). 
+
+Observable trend/Correlation 2
+
+Small to medium schools perform about equally to each other but both perform overall better then large schools, specifically in the percentage of passing math, which drops significantly (30%) in large schools. 
+
+## District Summary
+
+15 schools total with total 39,170 total students
+    8 Charter Schools
+    7 District Schools
+The District performs better overall reading scores over math scores, but overall total students passing is low at 65%
+
+## School Summary
+Spending per capita is overall even between District and Charter schools although Charter schools have less students.
+
+## Highest-Performing Schools (by % Overall Passing)
+Charter schools appear to perfoem better across all metrics
+
+## Bottom Performing Schools (By % Overall Passing)
+District schools appear to perform worst overall while having the most spending per capita
+
+_____________________________________________________________________________________________________________________
+
 ## Instructions
 Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two observable trends based on the data.
 
